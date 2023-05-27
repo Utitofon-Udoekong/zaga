@@ -22,11 +22,11 @@ const props = defineProps({
       class="relative w-full overflow-hidden rounded-lg aspect-[3/2] md:aspect-[2/3] dark:bg-zinc-800"
     >
       <NuxtImg
-        :src="gallery.cover?.src || 'img/placeholder.jpg'"
+        :src="gallery.cover?.src || '/img/placeholder.jpg'"
         :alt="gallery.cover?.alt || gallery.title"
         :width="gallery.cover?.width"
         :height="gallery.cover?.height"
-        class="h-full w-full object-cover object-center group-hover:opacity-75"
+        class="h-full w-full object-cover object-center filter dark:opacity-80 hover:opacity-50"
         sizes="sm:100vw md:50vw lg:30vw"
         loading="lazy"
         placeholder
@@ -35,7 +35,7 @@ const props = defineProps({
         <div
           v-for="thumbnail, index in gallery.images.slice(0, 4)"
           :key="index"
-          class="col-span-1 aspect-square w-full rounded-lg overflow-hidden group-hover:opacity-75 dark:bg-zinc-800"
+          class="col-span-1 aspect-square w-full rounded-lg overflow-hidden dark:bg-zinc-800"
         >
           <NuxtImg
             :src="thumbnail.src"
@@ -55,3 +55,6 @@ const props = defineProps({
     </div>
   </NuxtLink>
 </template>
+<style>
+
+</style>

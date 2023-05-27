@@ -1,19 +1,4 @@
 <script setup lang="ts">
-import { withTrailingSlash } from "ufo";
-
-defineProps({
-  path: {
-    type: String,
-    default: "galleries",
-  },
-});
-
-// const { data: _galleries } = await useAsyncData(
-//   "galleries",
-//   async () =>
-//     await queryContent(withTrailingSlash(props.path)).find()
-// );
-
 const galleries = computed(() => galleryList || [])
 
 </script>
