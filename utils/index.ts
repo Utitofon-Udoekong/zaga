@@ -1,5 +1,19 @@
-import { Gallery } from "~/types";
-
+import { Gallery, Story } from "~/types";
+export const storyList: Story[] = [
+  {
+    _path: "/stories/persephones-grief",
+    title: "Persephones Grief Περσεφόνη🥀",
+    cover: {
+      src: "/img/hbh/cover.webp",
+      alt: "David Okon on Instagram. His black heaven.",
+      width: 1600,
+      height: 2400
+    },
+    date: "2022-01-15",
+    description: "As the human city development encroaches on the raccoon population's forest and meadow habitat, the raccoons find themselves faced with the very real possibility of extinction. In response, the raccoons engage in a desperate struggle to stop the construction and preserve their home.",
+    tags: ["animation", "fantasy", "japanese"]
+  }
+]
 export const galleryList: Gallery[] = [
     {
       _path: "/galleries/his-black-heaven",

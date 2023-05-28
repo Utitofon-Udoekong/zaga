@@ -8,14 +8,14 @@
             Questions or collaboration ideas?
           </p>
           <div class="flex flex-col gap-4 mt-8 max-w-lg mx-auto text-center text-zinc-600 dark:text-zinc-400 text-sm">
-              <p>I would love to hear from you! Whether you have questions about my work, have collaboration ideas, or are interested in hiring me for a project, don't hesitate to reach out.</p>
+              <p>I would love to hear from you! Whether you have <b>questions</b> about my work, have <b>collaboration ideas</b>, or are interested in <b>hiring me</b> for a project, don't hesitate to reach out.</p>
               <p>I usually respond within hours!</p>
           </div>
           <ul class="mt-16 flex flex-col gap-4 lg:gap-12 lg:flex-row items-center justify-center max-w-2xl mx-auto">
             <li>
-              <NuxtLink to="mailto:oscar@mattern.com" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
+              <NuxtLink to="mailto:david@Okon.com" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
                 <Icon name="heroicons:envelope-20-solid" size="1.8rem" />
-                <span>oscar@mattern.com</span>
+                <span>david@Okon.com</span>
               </NuxtLink>
             </li>
             <li>

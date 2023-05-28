@@ -22,3 +22,12 @@ export type Gallery = {
   igLink: string;
   images: Image[]
 };
+
+export type Story = {
+  _path: string;
+  title: string;
+  description?: string;
+  cover?: Image;
+  date?: string;
+  tags?: string[];
+};
