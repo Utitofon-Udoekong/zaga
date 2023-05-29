@@ -54,7 +54,7 @@ onMounted(() => {
 <template>
     <div class="" ref="eventbox">
         <div class="my-20 overflow-clip w-full relative ">
-            <div class="inline-flex gap-x-4 marquee-child " ref="textbox">
+            <div class="inline-flex gap-x-4 marquee-child" ref="textbox">
                 <p v-for="n in 10" class="uppercase tracking-widest text-8xl font-bold text-zinc-900 dark:text-white">
                     Events
                 </p>
