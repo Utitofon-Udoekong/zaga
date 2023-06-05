@@ -4,11 +4,12 @@ import { gsap, Power2, interpolate } from "gsap/all";
 import { useElementBounding } from "@vueuse/core";
 const emit = defineEmits(["enter", "move"]);
 
-const {index, title, description, year} = defineProps<{
+const {index, title, description, year, igLink} = defineProps<{
     title: string
     description: string
     year: string
     index: number
+    igLink: string
 }>();
 const number = computed(() => `${index + 1}`.padStart(2, "0"));
 const $el = ref(null);
@@ -47,7 +48,7 @@ const onMove = (e: MouseEvent) => {
 };
 </script>
 <template>
-  <li class="dark:text-zinc-400 flex flex-col gap-1 border-b border-gray-400 cursor-pointer">
+  <NuxtLink :external="true" :to="igLink" class="dark:text-zinc-400 flex flex-col gap-1 border-b border-gray-400 cursor-pointer">
     <div ref="$el"
       @mouseenter="onEnter"
       @mouseleave="onLeave"
@@ -59,5 +60,5 @@ const onMove = (e: MouseEvent) => {
       </p>
       <span class="text-sm">{{ description }}</span>
     </div>
-  </li>
+  </NuxtLink>
 </template>

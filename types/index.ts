@@ -9,7 +9,8 @@ export interface Event {
   title: string;
   year: string;
   description: string;
-  cover: string
+  cover: string;
+  igLink: string
 }
 
 export type Gallery = {
@@ -30,4 +31,6 @@ export type Story = {
   cover?: Image;
   date?: string;
   tags?: string[];
+  images?: Image[];
+  video?: string;
 };

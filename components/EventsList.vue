@@ -3,22 +3,25 @@ import { Event } from '~/types';
 import { useScroll, useIntersectionObserver, useElementBounding, useEventListener } from '@vueuse/core';
 const events: Event[] = [
     {
-        title: "Best Landscape Photographer",
-        year: "2019",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        cover: "/img/me/2.webp"
+        title: "Cocconed",
+        year: "2022",
+        description: "I am embracing the visiting pain that dresses in different shapes.",
+        cover: "/img/cocconed.webp",
+        igLink: "https://www.instagram.com/p/Cl8NrPpAhW0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     },
     {
-        title: "Best Portrait Photographer",
-        year: "2018",
-        description: "Lorem ipsum dolor sit amet.",
-        cover: "/img/court-1/cover.webp"
+        title: "Persephones Grief",
+        year: "2022",
+        description: "I asked Persephone, \"How could you love him?\"",
+        cover: "/img/perse/cover.webp",
+        igLink: "https://www.instagram.com/p/Cax25wGA4tS/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     }, 
     {
-        title: "Best Travel Photographer",
-        year: "2017",
-        description: "Lorem ipsum dolor sit amet.",
-        cover: "/img/musa/cover.webp"
+        title: "Bond",
+        year: "2022",
+        description: "It isn't the ribbon that binds us together",
+        cover: "/img/bond/cover.webp",
+        igLink: "https://www.instagram.com/p/CeiuAMcItrq/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     }
 ]
 const activeIndex = ref(null);
@@ -56,22 +59,22 @@ onMounted(() => {
         <div class="my-20 overflow-clip w-full relative ">
             <div class="inline-flex gap-x-4 marquee-child" ref="textbox">
                 <p v-for="n in 10" class="uppercase tracking-widest text-8xl font-bold text-zinc-900 dark:text-white">
-                    Events
+                    Highlights
                 </p>
             </div>
             <div class="flex gap-x-4 marquee-child-right ">
                 <p v-for="n in 10" class="uppercase flip tracking-widest text-8xl font-bold text-zinc-900 dark:text-white">
-                    Events
+                    Highlights
                 </p>
             </div>
         </div>
         <ul @mouseenter="box.animateIn" @mouseleave="box.animateOut" class="space-y-4">
-            <EventItem v-for="(item, index) in events" :key="index" :title="item.title" :year="item.year"
+            <EventItem v-for="(item, index) in events" :key="index" :title="item.title" :year="item.year" :igLink="item.igLink"
                 :description="item.description" :index="index"
             @enter="activeIndex = $event"
             @move="onMove" />
         </ul>
-        <div class="my-20 overflow-clip w-full relative">
+        <!-- <div class="my-20 overflow-clip w-full relative">
             
             <div class="flex gap-x-4 marquee-child-right">
                 <p v-for="n in 10" class="uppercase flip tracking-widest text-8xl font-bold text-zinc-900 dark:text-white">
@@ -83,7 +86,7 @@ onMounted(() => {
                     AWARDS
                 </p>
             </div>
-        </div>
+        </div> -->
         <EventBox
             ref="box"
             :events="events"

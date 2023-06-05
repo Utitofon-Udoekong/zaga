@@ -4,13 +4,34 @@ export const storyList: Story[] = [
     _path: "/stories/persephones-grief",
     title: "Persephones Grief Περσεφόνη🥀",
     cover: {
-      src: "/img/hbh/cover.webp",
-      alt: "David Okon on Instagram. His black heaven.",
+      src: "/img/perse/cover.webp",
+      alt: "David Okon on Instagram. Persephones Grief",
       width: 1600,
       height: 2400
     },
+    images: [
+      {
+        src: "/img/perse/cover.webp",
+        alt: "David Okon on Instagram. Persephones Grief",
+        width: 1600,
+        height: 2400
+      },
+      {
+        src: "/img/perse/1.webp",
+        alt: "David Okon on Instagram. Persephones Grief",
+        width: 1600,
+        height: 2400
+      },
+      {
+        src: "/img/perse/2.webp",
+        alt: "David Okon on Instagram. Persephones Grief",
+        width: 1600,
+        height: 2400
+      },
+    ],
+    video: "/img/perse/video.mp4",
     date: "2022-01-15",
-    description: "As the human city development encroaches on the raccoon population's forest and meadow habitat, the raccoons find themselves faced with the very real possibility of extinction. In response, the raccoons engage in a desperate struggle to stop the construction and preserve their home.",
+    description: "[Περσεφόνη ]Persephone's grief.I asked Persephone,'How could you love himHe took you from flowers to a kingdomwhere not a single living thing grow'Persephone smiled,'My darling, every flower on your earth withe",
     tags: ["animation", "fantasy", "japanese"]
   }
 ]
@@ -42,6 +63,106 @@ export const galleryList: Gallery[] = [
       },
       video: "/img/hbh/video.mp4",
       igLink: "https://www.instagram.com/p/CoS8naGgT8q/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+    },
+    {
+      _path: "/galleries/persephones-grief",
+      title: "Persephones Grief",
+      description: "I asked Persephone, \"How could you love him? He took you from flowers to a kingdom where not a single living thing grow\" Persephone smiled, \"My darling, every flower on your earth withers what Hades gave me was a crown made for the immortal flowers in my bones\"",
+      year: 2022,
+      images: [
+        {
+          src: "/img/perse/1.webp",
+          alt: "David Okon on Instagram. Persephones Grief.",
+          width: 1600,
+          height: 2400
+        },
+        {
+          src: "/img/perse/2.webp",
+          alt: "David Okon on Instagram. Persephones Grief.",
+          width: 1600,
+          height: 2400
+        },
+      ],
+      cover: {
+        src: "/img/perse/cover.webp",
+        alt: "David Okon on Instagram. Persephones Grief.",
+        width: 1600,
+        height: 2400
+      },
+      video: "/img/perse/video.mp4",
+      igLink: "https://www.instagram.com/p/Cax25wGA4tS/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+    },
+    {
+      _path: "/galleries/bond",
+      title: "Bond",
+      description: "It isn't the ribbon that binds us together The root that unifies us, does not derive from a tree on the wall\n This bond knows no genetics\n Friendship is a peculiar seed No matter the season, weather nor the time of the day\n When planted on a nourishing soul It will always bear fruit ",
+      year: 2022,
+      images: [
+        {
+          src: "/img/bond/1.webp",
+          alt: "David Okon on Instagram. Bond.",
+          width: 1600,
+          height: 2400
+        },
+        {
+          src: "/img/bond/2.webp",
+          alt: "David Okon on Instagram. Bond.",
+          width: 1600,
+          height: 2400
+        },
+        {
+          src: "/img/bond/3.webp",
+          alt: "David Okon on Instagram. Bond.",
+          width: 1600,
+          height: 2400
+        },
+      ],
+      cover: {
+        src: "/img/bond/cover.webp",
+        alt: "David Okon on Instagram. Bond.",
+        width: 1600,
+        height: 2400
+      },
+      igLink: "https://www.instagram.com/p/CeiuAMcItrq/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+    },
+    {
+      _path: "/galleries/horned",
+      title: "Horned",
+      description: "\"Horned\" is a powerful and evocative exploration of femininity, strength, and power. The woman's hairstyle, which resembles horns, is a symbol of her strength and power. She is a free spirit, and her hairstyle is a physical manifestation of her freedom.",
+      year: 2022,
+      images: [
+        {
+          src: "/img/horned/1.webp",
+          alt: "David Okon on Instagram. Horned.",
+          width: 1600,
+          height: 2400
+        },
+        {
+          src: "/img/horned/2.webp",
+          alt: "David Okon on Instagram. Horned.",
+          width: 1600,
+          height: 2400
+        },
+        {
+          src: "/img/horned/3.webp",
+          alt: "David Okon on Instagram. Horned.",
+          width: 1600,
+          height: 2400
+        },
+        {
+          src: "/img/horned/4.webp",
+          alt: "David Okon on Instagram. Horned.",
+          width: 1600,
+          height: 2400
+        },
+      ],
+      cover: {
+        src: "/img/horned/cover.webp",
+        alt: "David Okon on Instagram. Horned.",
+        width: 1600,
+        height: 2400
+      },
+      igLink: "https://www.instagram.com/p/CtChupqIwdt/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     },
     {
       _path: "/galleries/in-her-light",

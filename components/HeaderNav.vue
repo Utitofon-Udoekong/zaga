@@ -4,7 +4,6 @@ const lastScrollPosition = ref(0);
 const links = [
   { name: "Home", to: "/" },
   { name: "Galleries", to: "/galleries" },
-  { name: "Stories", to: "/stories" },
   { name: "Hire me", to: "/hire-me" },
 ] as { name: string; to: string }[];
 
