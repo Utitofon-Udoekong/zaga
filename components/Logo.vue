@@ -7,7 +7,7 @@
         <NuxtImg
           placeholder
           class="inline-block h-14 w-14 rounded-full"
-          src="img/logo.jpg"
+          src="/img/logo.jpg"
           alt="David Okon"
           format="webp"
           width="100"

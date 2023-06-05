@@ -4,32 +4,32 @@ export const storyList: Story[] = [
     _path: "/stories/persephones-grief",
     title: "Persephones Grief Περσεφόνη🥀",
     cover: {
-      src: "img/perse/cover.webp",
+      src: "/img/perse/cover.webp",
       alt: "David Okon on Instagram. Persephones Grief",
       width: 1600,
       height: 2400
     },
     images: [
       {
-        src: "img/perse/cover.webp",
+        src: "/img/perse/cover.webp",
         alt: "David Okon on Instagram. Persephones Grief",
         width: 1600,
         height: 2400
       },
       {
-        src: "img/perse/1.webp",
+        src: "/img/perse/1.webp",
         alt: "David Okon on Instagram. Persephones Grief",
         width: 1600,
         height: 2400
       },
       {
-        src: "img/perse/2.webp",
+        src: "/img/perse/2.webp",
         alt: "David Okon on Instagram. Persephones Grief",
         width: 1600,
         height: 2400
       },
     ],
-    video: "img/perse/video.mp4",
+    video: "/img/perse/video.mp4",
     date: "2022-01-15",
     description: "[Περσεφόνη ]Persephone's grief.I asked Persephone,'How could you love himHe took you from flowers to a kingdomwhere not a single living thing grow'Persephone smiled,'My darling, every flower on your earth withe",
     tags: ["animation", "fantasy", "japanese"]
@@ -43,25 +43,25 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/hbh/2.webp",
+          src: "/img/hbh/2.webp",
           alt: "David Okon on Instagram. His black heaven.",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/hbh/3.webp",
+          src: "/img/hbh/3.webp",
           alt: "David Okon on Instagram. His black heaven.",
           width: 1600,
           height: 2400
         },
       ],
       cover: {
-        src: "img/hbh/cover.webp",
+        src: "/img/hbh/cover.webp",
         alt: "David Okon on Instagram. His black heaven.",
         width: 1600,
         height: 2400
       },
-      video: "img/hbh/video.mp4",
+      video: "/img/hbh/video.mp4",
       igLink: "https://www.instagram.com/p/CoS8naGgT8q/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     },
     {
@@ -71,25 +71,25 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/perse/1.webp",
+          src: "/img/perse/1.webp",
           alt: "David Okon on Instagram. Persephones Grief.",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/perse/2.webp",
+          src: "/img/perse/2.webp",
           alt: "David Okon on Instagram. Persephones Grief.",
           width: 1600,
           height: 2400
         },
       ],
       cover: {
-        src: "img/perse/cover.webp",
+        src: "/img/perse/cover.webp",
         alt: "David Okon on Instagram. Persephones Grief.",
         width: 1600,
         height: 2400
       },
-      video: "img/perse/video.mp4",
+      video: "/img/perse/video.mp4",
       igLink: "https://www.instagram.com/p/Cax25wGA4tS/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     },
     {
@@ -99,26 +99,26 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/bond/1.webp",
+          src: "/img/bond/1.webp",
           alt: "David Okon on Instagram. Bond.",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/bond/2.webp",
+          src: "/img/bond/2.webp",
           alt: "David Okon on Instagram. Bond.",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/bond/3.webp",
+          src: "/img/bond/3.webp",
           alt: "David Okon on Instagram. Bond.",
           width: 1600,
           height: 2400
         },
       ],
       cover: {
-        src: "img/bond/cover.webp",
+        src: "/img/bond/cover.webp",
         alt: "David Okon on Instagram. Bond.",
         width: 1600,
         height: 2400
@@ -132,32 +132,32 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/horned/1.webp",
+          src: "/img/horned/1.webp",
           alt: "David Okon on Instagram. Horned.",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/horned/2.webp",
+          src: "/img/horned/2.webp",
           alt: "David Okon on Instagram. Horned.",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/horned/3.webp",
+          src: "/img/horned/3.webp",
           alt: "David Okon on Instagram. Horned.",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/horned/4.webp",
+          src: "/img/horned/4.webp",
           alt: "David Okon on Instagram. Horned.",
           width: 1600,
           height: 2400
         },
       ],
       cover: {
-        src: "img/horned/cover.webp",
+        src: "/img/horned/cover.webp",
         alt: "David Okon on Instagram. Horned.",
         width: 1600,
         height: 2400
@@ -171,50 +171,50 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/ihl/2.webp",
+          src: "/img/ihl/2.webp",
           alt: "David Okon on Instagram. In her light",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/ihl/3.webp",
+          src: "/img/ihl/3.webp",
           alt: "David Okon on Instagram. In her light",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/ihl/4.webp",
+          src: "/img/ihl/4.webp",
           alt: "David Okon on Instagram. In her light",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/ihl/5.webp",
+          src: "/img/ihl/5.webp",
           alt: "David Okon on Instagram. In her light",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/ihl/6.webp",
+          src: "/img/ihl/6.webp",
           alt: "David Okon on Instagram. In her light",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/ihl/7.webp",
+          src: "/img/ihl/7.webp",
           alt: "David Okon on Instagram. In her light",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/ihl/8.webp",
+          src: "/img/ihl/8.webp",
           alt: "David Okon on Instagram. In her light",
           width: 1600,
           height: 2400
         },
       ],
       cover: {
-        src: "img/ihl/cover.webp",
+        src: "/img/ihl/cover.webp",
         alt: "David Okon on Instagram. In her light",
         width: 1600,
         height: 2400
@@ -228,44 +228,44 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/wanderer/2.webp",
+          src: "/img/wanderer/2.webp",
           alt: "David Okon on Instagram. Wanderer",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/wanderer/3.webp",
+          src: "/img/wanderer/3.webp",
           alt: "David Okon on Instagram. Wanderer",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/wanderer/4.webp",
+          src: "/img/wanderer/4.webp",
           alt: "David Okon on Instagram. Wanderer",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/wanderer/5.webp",
+          src: "/img/wanderer/5.webp",
           alt: "David Okon on Instagram. Wanderer",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/wanderer/6.webp",
+          src: "/img/wanderer/6.webp",
           alt: "David Okon on Instagram. Wanderer",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/wanderer/7.webp",
+          src: "/img/wanderer/7.webp",
           alt: "David Okon on Instagram. Wanderer",
           width: 1600,
           height: 2400
         }
       ],
       cover: {
-        src: "img/wanderer/cover.webp",
+        src: "/img/wanderer/cover.webp",
         alt: "David Okon on Instagram. Wanderer",
         width: 1600,
         height: 2400
@@ -279,44 +279,44 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/solitaire/2.webp",
+          src: "/img/solitaire/2.webp",
           alt: "David Okon on Instagram. Solitaire",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/solitaire/3.webp",
+          src: "/img/solitaire/3.webp",
           alt: "David Okon on Instagram. Solitaire",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/solitaire/4.webp",
+          src: "/img/solitaire/4.webp",
           alt: "David Okon on Instagram. Solitaire",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/solitaire/5.webp",
+          src: "/img/solitaire/5.webp",
           alt: "David Okon on Instagram. Solitaire",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/solitaire/6.webp",
+          src: "/img/solitaire/6.webp",
           alt: "David Okon on Instagram. Solitaire",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/solitaire/7.webp",
+          src: "/img/solitaire/7.webp",
           alt: "David Okon on Instagram. Solitaire",
           width: 1600,
           height: 2400
         },
       ],
       cover: {
-        src: "img/solitaire/cover.webp",
+        src: "/img/solitaire/cover.webp",
         alt: "David Okon on Instagram. Solitaire",
         width: 1600,
         height: 2400
@@ -330,38 +330,38 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/musa/2.webp",
+          src: "/img/musa/2.webp",
           alt: "David Okon on Instagram. La musa",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/musa/3.webp",
+          src: "/img/musa/3.webp",
           alt: "David Okon on Instagram. La musa",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/musa/4.webp",
+          src: "/img/musa/4.webp",
           alt: "David Okon on Instagram. La musa",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/musa/5.webp",
+          src: "/img/musa/5.webp",
           alt: "David Okon on Instagram. La musa",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/musa/6.webp",
+          src: "/img/musa/6.webp",
           alt: "David Okon on Instagram. La musa",
           width: 1600,
           height: 2400
         }
       ],
       cover: {
-        src: "img/musa/cover.webp",
+        src: "/img/musa/cover.webp",
         alt: "David Okon on Instagram. La musa",
         width: 1600,
         height: 2400
@@ -376,38 +376,38 @@ export const galleryList: Gallery[] = [
       year: 2022,
       images: [
         {
-          src: "img/court-1/2.webp",
+          src: "/img/court-1/2.webp",
           alt: "David Okon on Instagram. Court Style I",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/court-1/3.webp",
+          src: "/img/court-1/3.webp",
           alt: "David Okon on Instagram. Court Style I",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/court-1/4.webp",
+          src: "/img/court-1/4.webp",
           alt: "David Okon on Instagram. Court Style I",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/court-1/5.webp",
+          src: "/img/court-1/5.webp",
           alt: "David Okon on Instagram. Court Style I",
           width: 1600,
           height: 2400
         },
         {
-          src: "img/court-1/6.webp",
+          src: "/img/court-1/6.webp",
           alt: "David Okon on Instagram. Court Style I",
           width: 1600,
           height: 2400
         }
       ],
       cover: {
-        src: "img/court-1/cover.webp",
+        src: "/img/court-1/cover.webp",
         alt: "David Okon on Instagram. Court Style I",
         width: 1600,
         height: 2400
