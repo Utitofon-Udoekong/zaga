@@ -8,13 +8,13 @@
           placeholder
           class="inline-block h-14 w-14 rounded-full"
           src="/img/logo.jpg"
-          alt="Oscar Mattern"
+          alt="David Okon"
           format="webp"
           width="100"
           height="100"
         />
       </div>
-      <span class="uppercase tracking-widest hidden md:inline-flex shrink-1 sr-only">Oscar Mattern</span>
+      <span class="uppercase tracking-widest hidden md:inline-flex shrink-1 sr-only">David Okon</span>
     </NuxtLink>
   </template>
   
