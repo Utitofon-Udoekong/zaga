@@ -6,21 +6,21 @@ const events: Event[] = [
         title: "Cocconed",
         year: "2022",
         description: "I am embracing the visiting pain that dresses in different shapes.",
-        cover: "/img/cocconed.webp",
+        cover: "img/cocconed.webp",
         igLink: "https://www.instagram.com/p/Cl8NrPpAhW0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     },
     {
         title: "Persephones Grief",
         year: "2022",
         description: "I asked Persephone, \"How could you love him?\"",
-        cover: "/img/perse/cover.webp",
+        cover: "img/perse/cover.webp",
         igLink: "https://www.instagram.com/p/Cax25wGA4tS/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     }, 
     {
         title: "Bond",
         year: "2022",
         description: "It isn't the ribbon that binds us together",
-        cover: "/img/bond/cover.webp",
+        cover: "img/bond/cover.webp",
         igLink: "https://www.instagram.com/p/CeiuAMcItrq/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
     }
 ]

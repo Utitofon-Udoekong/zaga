@@ -11,7 +11,7 @@ const packages = [
             "Print release for personal use"
         ],
         image: {
-            src: "/img/hire-me/package1.webp",
+            src: "img/hire-me/package1.webp",
             alt: "Mini"
         }
     },
@@ -27,7 +27,7 @@ const packages = [
             "Print release for personal use"
         ],
         image: {
-            src: "/img/hire-me/package2.webp",
+            src: "img/hire-me/package2.webp",
             alt: "Standard"
         }
     },
@@ -43,7 +43,7 @@ const packages = [
             "Print release for personal use"
         ],
         image: {
-            src: "/img/hire-me/package3.webp",
+            src: "img/hire-me/package3.webp",
             alt: "Standard"
         }
     },
@@ -54,7 +54,7 @@ const testimonials = [
         quote: "Working with David was an absolute pleasure. His attention to detail and creative eye for photography made our project truly stand out. He took the time to understand our vision and brought it to life in a way that exceeded our expectations. David is not only a skilled photographer but also a professional who is easy to work with and goes above and beyond to deliver outstanding results. We couldn't be happier with the final product and highly recommend David for any photography needs. Thank you, David, for your exceptional work!",
         name: "Sarah Johnson",
         image: {
-            src: "/img/me/2.webp",
+            src: "img/me/2.webp",
             alt: "Sarah Johnson"
         }
     },
@@ -62,7 +62,7 @@ const testimonials = [
         quote: "I had the pleasure of working with Zaga on a photoshoot for my business and I couldn't be happier with the results. Her professionalism, creativity, and attention to detail were top-notch. She captured the essence of my brand and brought it to life in a way that was beyond my expectations. I highly recommend Zaga for any photography needs, she is a true talent.",
         name: "Davido",
         image: {
-            src: "/img/me/2.webp",
+            src: "img/me/2.webp",
             alt: "Davido"
         }
     },
@@ -70,7 +70,7 @@ const testimonials = [
         quote: "I've had the pleasure of working with David on several photography projects, and I have to say, he never ceases to amaze me with his talent and creativity. His eye for detail and ability to capture the essence of a moment is truly impressive. Not only that, but he's also a pleasure to work with - always professional, punctual, and collaborative. I highly recommend David for any photography needs - you won't be disappointed!",
         name: "Jenny Asuquo",
         image: {
-            src: "/img/me/2.webp",
+            src: "img/me/2.webp",
             alt: "Jenny Asuquo"
         }
     },
@@ -78,7 +78,7 @@ const testimonials = [
         quote: "I have had the privilege of working with David on multiple projects and I am consistently blown away by his work. His ability to capture the emotion and essence of his subjects is truly impressive. He has a gift for making people feel comfortable and bringing out their best selves in front of the camera. I highly recommend David for any photography needs, he is a true professional.",
         name: "Miah",
         image: {
-            src: "/img/me/2.webp",
+            src: "img/me/2.webp",
             alt: "Miah"
         }
     },
@@ -86,7 +86,7 @@ const testimonials = [
         quote: "I recently worked with Sarah on a family photoshoot and I was blown away by her talent and professionalism. She made us feel comfortable in front of the camera and captured the most beautiful moments that we will cherish forever. Her attention to detail and ability to tell a story through her photography is truly remarkable. I highly recommend Sarah for any photography needs, she is a true gem.",
         name: "Nenghema",
         image: {
-            src: "/img/me/2.webp",
+            src: "img/me/2.webp",
             alt: "Nenghema"
         }
     },
@@ -94,7 +94,7 @@ const testimonials = [
         quote: "I recently worked with David on a photoshoot for my business and I was extremely impressed with his work. He has a keen eye for detail and knows how to bring out the best in his subjects. His creativity and professionalism were second to none.",
         name: "My Boss",
         image: {
-            src: "/img/me/2.webp",
+            src: "img/me/2.webp",
             alt: "My Boss"
         }
     },

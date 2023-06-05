@@ -22,7 +22,7 @@ const props = defineProps({
       class="relative w-full overflow-hidden rounded-lg aspect-[3/2] md:aspect-[2/3] dark:bg-zinc-800"
     >
       <NuxtImg
-        :src="gallery.cover?.src || '/img/placeholder.jpg'"
+        :src="gallery.cover?.src || 'img/placeholder.jpg'"
         :alt="gallery.cover?.alt || gallery.title"
         :width="gallery.cover?.width"
         :height="gallery.cover?.height"

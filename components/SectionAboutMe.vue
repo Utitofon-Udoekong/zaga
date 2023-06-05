@@ -27,7 +27,7 @@ defineProps({
             <p>I am a photographer based in Uyo, Akwa Ibom. I specialize in <b>landscape, travel, and portrait photography</b>. I have been photographing for over 10 years and have been published in many magazines and newspapers. I am available for hire for weddings, events, and portraits. </p>
             <p>I am a passionate photographer with a keen eye for capturing the beauty of life through the art of photography.</p>
         </div>
-        <NuxtImg src="/img/home/sign.png" alt="signature" class="h-8 mr-auto" />
+        <NuxtImg src="img/home/sign.png" alt="signature" class="h-8 mr-auto" />
       </div>
 
       <div v-parallax 
@@ -38,7 +38,7 @@ defineProps({
         <div class="lg:absolute aspect-square lg:aspect-[2/3] flex-none overflow-hidden bg-zinc-100 dark:bg-zinc-800 w-32 lg:w-72 rounded-2xl rotate-3">
           <NuxtImg
             placeholder
-            src="/img/me/2.webp"
+            src="img/me/2.webp"
             alt="David Okon"
             width="1600"
             height="2400"
