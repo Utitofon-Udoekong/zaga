@@ -24,10 +24,10 @@ defineProps({
           Okon
         </h2>
         <div class="dark:text-zinc-400 flex flex-col gap-4">
-            <p>I am a photographer based in Uyo, Akwa Ibom. I specialize in <b>landscape, travel, and portrait photography</b>. I have been photographing for over 10 years and have been published in many magazines and newspapers. I am available for hire for weddings, events, and portraits. </p>
+            <p>I am a photographer based in Uyo, Akwa Ibom. I specialize in <b>fashion and art photography</b>. I have been photographing for over 4 years and have been published in many magazines and newspapers. I am available for hire for weddings, events, and portraits. </p>
             <p>I am a passionate photographer with a keen eye for capturing the beauty of life through the art of photography.</p>
         </div>
-        <NuxtImg src="/img/home/sign.png" alt="signature" class="h-8 mr-auto" />
+        <!-- <NuxtImg src="/img/home/sign.png" alt="signature" class="h-8 mr-auto" /> -->
       </div>
 
       <div v-parallax 

@@ -53,7 +53,7 @@ const onMove = (e: MouseEvent) => {
       @mouseenter="onEnter"
       @mouseleave="onLeave"
       @mousemove="onMove" 
-      class="pl-32 py-12 flex items-center space-x-8 relative z-20">
+      class=" lg:pl-32 py-12 flex items-center space-x-8 relative z-20">
       <p class="flex items-center gap-2">
         <span class="font-display text-2xl text-zinc-500 dark:text-zinc-500">{{ year }}</span>
         <span><strong class="font-semibold dark:text-zinc-200">{{ title }}</strong></span>

@@ -3,7 +3,7 @@ const packages = [
     {
         title: "Mini",
         price: "$450",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est ultricies nisl, eget ultricies lorem nunc eget nunc.",
+        description: "",
         includedFeatures: [
             "1 location",
             "30min (up to 5 people)",
@@ -18,7 +18,7 @@ const packages = [
     {
         title: "Standard",
         price: "$550",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est ultricies nisl, eget ultricies lorem nunc eget nunc.",
+        description: "",
         includedFeatures: [
             "1 location",
             "Outfit change",
@@ -34,7 +34,7 @@ const packages = [
     {
         title: "Ultimate",
         price: "$650",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est ultricies nisl, eget ultricies lorem nunc eget nunc.",
+        description: "",
         includedFeatures: [
             "2 locations",
             "Outfit change",
